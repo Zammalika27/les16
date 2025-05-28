@@ -1,0 +1,21 @@
+start
+
+new card_number string 
+new cardholder_name string 
+new expiry_date string 
+new bank_name string 
+
+set card_number "4686 1564 1566 3456"
+set cardholder_name "Петр Максимов"
+set expiry_date "05/19"
+set bank_name "АБУ-БАНК"
+
+log string "|--------------">>bank_name>>"--------------|"
+log string "|------------------------------------|"
+log string "|-Card Number:-">>card_number>>"---|"
+log string "|------------------------------------|"
+log string "|-Cardholder:-">>cardholder_name>>"----------|"
+log string "|-Expiry Date:-">>expiry_date>>"-----------------|"
+
+
+finish 
