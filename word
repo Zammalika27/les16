@@ -1,0 +1,10 @@
+start
+
+log string "A"
+log string "A"
+log string "A"
+log string "A"
+log string "A"
+log string "A"
+
+finish
